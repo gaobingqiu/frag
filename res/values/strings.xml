@@ -4,5 +4,8 @@
     <string name="app_name">frag</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="framents_1">This is fragment #1</string>
+    <string name="framents_2">This is fragment #2</string>
+    <string name="button_framents_2">Get text in Fragment #1</string>
 
 </resources>

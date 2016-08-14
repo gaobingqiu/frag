@@ -6,10 +6,25 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends Activity {
+	int orientation;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		//Fragment1 fragment1;
 		super.onCreate(savedInstanceState);
+		// WindowManager wm = getWindowManager();
+		// Display d = wm.getDefaultDisplay();
+//		if (this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+//			Log.i("info", "landscape"); // ∫·∆¡
+//		}
+//		if (this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
+//			//  ˙∆¡
+//			FragmentManager fragmentManager = getFragmentManager();
+//			FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+//			fragment1 = new Fragment1();
+//			fragmentTransaction.replace(android.R.id.content, fragment1);
+//			fragmentTransaction.commit();
+//		}
 		setContentView(R.layout.activity_main);
 	}
 
@@ -31,4 +46,5 @@ public class MainActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
 }

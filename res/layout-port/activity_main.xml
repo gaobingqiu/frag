@@ -3,18 +3,11 @@
     android:layout_height="fill_parent"
     android:baselineAligned="false"
     android:orientation="horizontal" >
-
+    
     <fragment
         android:id="@+id/fragment1"
         android:name="com.example.frag.Fragment1"
-        android:layout_width="0px"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
-
-    <fragment
-        android:id="@+id/fragment2"
-        android:name="com.example.frag.Fragment2"
-        android:layout_width="0px"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
